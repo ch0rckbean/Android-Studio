@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Red"
+        android:title="배경색(빨강"/>
+    <item
+        android:id="@+id/Green"
+        android:title="배경색(초록)"/>
+    <item
+        android:id="@+id/Blue"
+        android:title="배경색(파랑)"/>
+    <item
+        android:id="@+id/Ch"
+        android:title="버튼변경">
+        <menu>
+            <item
+                android:id="@+id/ro45"
+                android:title="버튼 45도 회전"/>
+            <item
+                android:id="@+id/Zoom"
+                android:title="버튼 2대 확대"/>
+        </menu>
+    </item>
+</menu>

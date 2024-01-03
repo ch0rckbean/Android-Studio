@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:background="#FFC107"
+        android:textColor="#ff0000"
+        android:textSize="30sp"
+        android:id="@+id/T1"
+        android:gravity="center"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/Rg">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="red"
+            android:checked="true"
+            android:id="@+id/R1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="green"
+            android:id="@+id/R2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blue"
+            android:id="@+id/R3"/>
+
+    </RadioGroup>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left"
+            android:textOff="Left"
+            android:textOn="Click"
+            android:id="@+id/Tg1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right"
+            android:textOff="Right"
+            android:textOn="Click"
+            android:id="@+id/Tg2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word:"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="20dp"
+            android:id="@+id/T2"
+            android:layout_below="@+id/Tg1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Ed"
+            android:layout_alignBaseline="@+id/T2"
+            android:layout_toRightOf="@+id/T2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DEL"
+            android:id="@+id/B1"
+            android:layout_below="@+id/T2"
+            android:layout_alignBaseline="@+id/B2"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENTER"
+            android:id="@+id/B2"
+            android:layout_toRightOf="@+id/B1"
+            android:layout_toLeftOf="@+id/B3"
+            android:layout_below="@+id/Ed"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLR"
+            android:id="@+id/B3"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Ed"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
