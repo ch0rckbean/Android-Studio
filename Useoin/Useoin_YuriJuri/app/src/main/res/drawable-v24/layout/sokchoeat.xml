@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/utensil"
+            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_alignBottom="@+id/Toeat"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/Toeat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="맛집 냠냠"
+            android:textColor="#000000"
+            android:id="@+id/Toeat"
+            android:layout_centerHorizontal="true"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#486ae0"
+            android:layout_below="@+id/Toeat"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/muguri"/>
+            <TextView
+                android:text="봉포 머구리집"
+                android:gravity="center"
+                android:textColor="#486ae0"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" (물회 ,회덮밥, 회 등)- 잘게 썬 회,해삼,멍게, 전복 등의 다양한 해산물이 들어간 음식. 국수나 밥을 말아먹고 바다의 신선함과 시원함을 입 안에서 만끽할 수 있다. "                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강원 속초시 영랑해안길 223"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ttuk"/>
+            <TextView
+                android:text="속초관광 수산시장"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#486ae0"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" (오징어순대,씨앗호떡 등)- 먹을 것이 널린 천국과 같은 곳. 입구의 씨앗호떡과 오징어순대는 꼭 먹어야 한다.여기서 막걸리와 안주를 사서 숙소로 돌아가면 멋진 뒤풀이를 즐길 수 있다."
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강원 속초시 중앙로147번길 12"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:src="@drawable/mansuk" />
+            <TextView
+                android:text="만석닭강정"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textColor="#486ae0"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text=" 속초관광 수산시장에서 돌아다닐 때, 모든 사람들의 손에서 만석닭강정 박스를 볼 수 있다 해도 과언이 아니다.순살/뼈, 매콤/보통 등 다양한 메뉴가 있다."
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강원 속초시 청초호반로 72"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="131dp"
+                    android:src="@drawable/kkomak" />
+            <TextView
+                android:text="엄지네 포장마차"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#486ae0"
+                android:textSize="25dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text="(꼬막요리)- 꼬막비빕밥이 유명한 곳으로,통통한 꼬막, 매콤한 양념이 버무려진 꼬막비빔밥 외에도 꼬막무침,전,해산물을 즐길 수 있다."                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 강원 속초시 청초호 판로323-2 "
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="백색 소음"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffff"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/Rain"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:text="●   비 내리는 소리" />
+
+     <TextView
+        android:id="@+id/Bug"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+         android:layout_marginLeft="30dp"
+         android:layout_weight="1"
+        android:text="●   귀뚜라미 소리"/>
+
+    <TextView
+        android:id="@+id/Wave"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="1"
+        android:text="●   파도 소리"/>
+
+    <TextView
+        android:id="@+id/Forest"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:text="●   숲 속 소리"/>
+
+</LinearLayout>

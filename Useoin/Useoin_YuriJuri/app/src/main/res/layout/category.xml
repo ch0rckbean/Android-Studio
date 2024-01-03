@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:gravity="left"
+        android:background="#486ae0">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="서울  Seoul"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="80dp"
+            android:id="@+id/Seoul"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="인천  Incheon"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/Seoul"
+            android:layout_marginTop="30dp"
+            android:id="@+id/Incheon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="속초  Sokcho"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/Incheon"
+            android:id="@+id/Sokcho"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="부산  Busan"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/Sokcho"
+            android:layout_marginTop="30dp"
+            android:id="@+id/Busan"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/oohseoin"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/Osi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Useoin"
+                android:textSize="20dp"
+                android:layout_toRightOf="@+id/Osi"
+                android:layout_alignTop="@+id/Osi"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"/>
+</RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffffff"/>
+    </LinearLayout>

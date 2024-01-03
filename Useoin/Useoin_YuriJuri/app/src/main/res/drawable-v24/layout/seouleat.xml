@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/utensil"
+            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_alignBottom="@+id/Toeat"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/Toeat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="맛집 냠냠"
+            android:textColor="#000000"
+            android:id="@+id/Toeat"
+            android:layout_centerHorizontal="true"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#486ae0"
+            android:layout_below="@+id/Toeat"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:src="@drawable/tacos" />
+            <TextView
+                android:text="감성 타코"
+                android:gravity="center"
+                android:textColor="#486ae0"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+android:text="시그니쳐 메뉴는 감성그릴드파히타. 그릴드 스테이크, 칠리새우,까르니따스, 스파이시포크로 이루어진 푸짐한 요리를 먹으면 한끼 식사가 뚝딱! 해결. 이 외에 퀘사디아,타코, 샐러드등의 메뉴를 판매하니 취향에 맞게 골라먹자."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="서울 마포구 와우산로21길 20-11"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/dimsom"/>
+            <TextView
+                android:text="쟈니덤플링"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#486ae0"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text="이태원의 유명한 만두 식당으로 쫄깃한 새우 물만두, 바삭한 군만두, 계란부추 만두 등을 칭따오 맥주,연태고량주, 이과두주 등의 중국 술이나 탄산음료와 함께 즐길 수 있다."
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="서울 용산구 보광로59길 5"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:src="@drawable/bb" />
+            <TextView
+                android:text="라이너스 바베큐"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textColor="#486ae0"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text="미국식 스모크 바비큐를 양껏 즐길 수 있는 곳으로, TV 에도 수차례 방영된 맛집이다. 시그니쳐 메뉴인 오리지널 플래터는 폭립, 번, 그레이비 소스, 콘슬로 등으로 구성되어 있다. 샌드위치, 맥 앤 치즈, 맥 볼 등의 사이드 메뉴도 알차게 구성되어 있다."
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="용산구 이태원로 136-13"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:src="@drawable/gob" />
+            <TextView
+                android:text="대낚식당"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#486ae0"
+                android:textSize="25dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text="곱도리탕이 시그니쳐인 곳으로, 곱창을 좋아한다면 꼭 가야하는 곳. 얼큰한 닭도리탕에 곱창을 넣고 끓인 곱도리탕과, 쫄깃한 대창의 대창덮밥 등을 즐길 수 있다."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="서울 강남구 역삼로 137"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

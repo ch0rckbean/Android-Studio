@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobileprogramming_deliever">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hat_foreground"
+        android:label="시켜먹자"
+        android:roundIcon="@mipmap/hat_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" android:label="오늘 먹을 음식은?!"/>
+        <activity android:name=".Chicken" android:label="치킨"/>
+        <activity android:name=".Chi" android:label="중식"/>
+        <activity android:name=".Dess" android:label="디저트"/>
+        <activity android:name=".Sushi" android:label="일식"/>
+        <activity android:name=".Pizza" android:label="피자"/>
+        <activity android:name=".End" android:label="주문 전 체크!"/>
+        <activity android:name=".Let" android:label="먹을 준비 완료!"/>
+    </application>
+
+</manifest>

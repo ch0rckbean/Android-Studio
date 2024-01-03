@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:text="자두를 일본어로 나타내면 무엇일까요?"
+        android:textStyle="bold"/>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/sumomo"
+    android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:layout_gravity="center"
+        android:text="정답!! 마법의 책갈피를 누르세요"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:id="@+id/O"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:layout_gravity="center"
+        android:text="땡!! 다시 해보세요"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:id="@+id/X"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/Rdg">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="りんご"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:id="@+id/Rd1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="すもも"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:id="@+id/Rd2"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ぶどう"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:id="@+id/Rd3"/>
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/key"
+        android:id="@+id/Key"/>
+
+</LinearLayout>
+

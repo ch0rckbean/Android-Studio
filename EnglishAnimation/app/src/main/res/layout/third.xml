@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_weight="1"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/yy"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="여울이는 어떤 どうぶつ 일까요?"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/squirrel"
+        android:layout_weight="1"
+        android:id="@+id/Sq"/>
+
+    <ImageView
+        android:id="@+id/Dog"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:src="@drawable/dog" />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_weight="1"
+        android:src="@drawable/cat"
+        android:id="@+id/Cat"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:layout_gravity="center"
+        android:text="정답!! 마법의 책갈피를 누르세요"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:id="@+id/O"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:layout_gravity="center"
+        android:text="땡!! 다시 해보세요"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        android:id="@+id/X"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/key"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Key"/>
+
+</LinearLayout>
+</LinearLayout>

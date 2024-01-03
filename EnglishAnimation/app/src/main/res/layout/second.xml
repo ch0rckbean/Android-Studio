@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/bg2"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:text="맞는 그림을 고르세요."
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:text="おかし"
+        android:background="#C9B3DB"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+           android:layout_alignParentLeft="true"
+            android:src="@drawable/meat"
+            android:id="@+id/Meat"/>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:src="@drawable/onigiri"
+            android:layout_below="@+id/Meat"
+            android:id="@+id/Onigiri"/>
+        <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/okasi"
+        android:id="@+id/Okasi"/>
+
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="정답!! 마법의 책갈피를 누르세요"
+        android:textSize="30dp"
+        android:visibility="invisible"
+        android:id="@+id/O"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:layout_gravity="center"
+        android:text="땡!! 다시 해보세요"
+        android:textSize="30dp"
+        android:visibility="invisible"
+        android:id="@+id/X"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/key"
+        android:id="@+id/Key"/>
+
+</LinearLayout>
+</LinearLayout>

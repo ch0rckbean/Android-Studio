@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="짱구야\n        놀자!"
+        android:textColor="#19B2F7"
+        android:textSize="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/crayon"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/face"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/face"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/face2"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/face2"
+        android:visibility="invisible"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/play"
+        android:layout_below="@+id/face"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/Play"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/stop"
+        android:layout_below="@+id/face"
+        android:layout_toRightOf="@+id/Play"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/Stop"/>
+</RelativeLayout>

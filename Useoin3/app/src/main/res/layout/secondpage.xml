@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/L1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="백색소음"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/White"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/Tv1"
+            android:text="백색소음은 넓은 음폭을 가져 방해가\n되지 않는 소음입니다. 불면증을 치료하고\n숙면을 유도하지요. 오늘부터 숙면하세요~"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/L2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="마이페이지"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/My"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/Tv2"
+            android:text="당신이 자고 있을 때 당신의 수면패턴을\n파악합니다. 깊은 잠을 잘 잤는지, 1주일 간\n수면 시간은 어떤지 등을 확인할 수 있어요."
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

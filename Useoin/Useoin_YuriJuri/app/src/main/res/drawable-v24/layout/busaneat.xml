@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/utensil"
+            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_alignBottom="@+id/Toeat"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/Toeat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="맛집 냠냠"
+            android:textColor="#000000"
+            android:id="@+id/Toeat"
+            android:layout_centerHorizontal="true"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#486ae0"
+            android:layout_below="@+id/Toeat"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/bseat1"/>
+            <TextView
+                android:text="소문난 돼지국밥"
+                android:gravity="center"
+                android:textColor="#486ae0"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="부산하면 돼지국밥! 7천원에 든든한 한끼를 먹을 수 있다. 3대째 이어져 내려오는 70년 된 오래된 맛집이다. 깔끔한 맛보다 진한 육수를 선호하는 분들에게 추천한다. 부추를 곁들여 먹은 후에 국수 사리를 넣어 먹으면 된다"/>
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="부산 부산진구 서면로 68번길 38"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/bseat2"/>
+            <TextView
+                android:text="해운대 가야밀면"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#486ae0"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text="메뉴는 밀면, 비빔면, 만두! 아주 간단한 메뉴다. 밀면에 사용되는 육수는 다양한 재료들을 60시간 푹 끓인 후 1년 이상 숙성시켜 깊은 맛을 느낄 수 있다. 밀면은 밀가루에 전분을 섞어 만든 면으로 쫄깃한 맛이 일품이다."/>            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="부산 해운대구 좌동순환로 27"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:src="@drawable/bseat3" />
+            <TextView
+                android:text="메르씨엘"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textColor="#486ae0"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text="본래 해운대 달맞이길은 고급 레스토랑,스시집들이 많이 입점해있다. 특히 메르씨엘은 탁 트인 해운대 바다를 감상하며 먹는 정통 프렌치 레스토랑이다. 명란 오일 파스타가 제일 인기 있다."/>            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="부산 해운대구 달맞이길 65번길 154"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:src="@drawable/bseat4" />
+            <TextView
+                android:text="희자매"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#486ae0"
+                android:textSize="25dp"
+                android:layout_width="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text="부산 조개구이 맛집! 가리비, 전복, 새우 등을 푸짐저렴하게 즐길 수 있다.사장님이 직접 구워주시니 걱정 말고 먹기만 하면 된다. 포차식 식당이어서 바닷바람이 춥다는 사실은 기억하길."/>            android:layout_width="wrap_content"
+            <TextView
+            android:layout_height="wrap_content"
+            android:text="부산 서구 암남동 620-24"
+            android:layout_gravity="center"
+                android:layout_width="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+
+<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TableRow>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:id="@+id/BtnCloth"
+        android:text="짱구의\n옷장"
+        android:background="@drawable/button_decoration"
+        android:fontFamily="@font/crayon"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:id="@+id/BtnFridge"
+        android:text="짱구의\n냉장고"
+        android:background="@drawable/button_decoration"
+        android:fontFamily="@font/crayon"
+        android:textSize="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:id="@+id/BtnTown"
+        android:text="짱구의\n발걸음"
+        android:fontFamily="@font/crayon"
+        android:background="@drawable/button_decoration"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"/>
+
+    </TableRow>
+</TableLayout>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frag"
+        android:name="com.example.jjangnol.Frag"
+        tools:layout="@layout/frag"/>
+
+
+</LinearLayout>
