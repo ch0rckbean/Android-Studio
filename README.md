@@ -1,6 +1,6 @@
-# 2020~2021 [모바일 프로그래밍 기초] 수업 코드/개인 작업물
+# 2020~2021 [Android Studio] 코드 저장소
 ## Stack
-Android Studio, Java, Photoshop, etc..
+Android Studio, Java, Photoshop, Figma, etc..
 
 --------
 ## 1. Class
