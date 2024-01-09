@@ -6,7 +6,9 @@ Android Studio, Java, Photoshop, Figma, etc..
 ## 1. Class
 과목 [모바일 프로그래밍 기초] 수업 코드 모음
 
-## 2. 개인 작업물(시간순)
+## 2. [하계단기집중 SW융합 프로그래머 양성과정] 수업 코드 모음
+
+## 3. 개인 작업물(시간순)
 [Android Studio] 개인 작업물
 
 1. MobileProgramming_Deliever: 시켜먹자 - 배달 어플리케이션
